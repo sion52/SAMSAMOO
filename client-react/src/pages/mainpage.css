@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Freesentation';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-7Bold.woff2') format('woff2');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Freesentation2';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-5Medium.woff2') format('woff2');
+    font-style: normal;
+}
+
+p {
+    margin: 0;
+}
+
+.Posts{
+    margin-top: 60px;
+    text-align: left;
+    margin-left: 6%;
+    font-size: 40px;
+    font-family: 'Freesentation';
+}
+
+.box {
+    font-family: 'Freesentation2';
+    margin-top: 5px;
+    background-color: #f8f9fa00;
+    display: flex;
+    flex-wrap: wrap;
+    /* padding: 20px; */
+    /* border: 2px solid #ccc; 테두리 스타일 설정 */
+    border-radius: 5px; /* 박스의 테두리를 둥글게 만듭니다. */
+    margin-bottom: 50px;
+    width: 1290px;
+    margin-left: 6%;
+    margin-right: auto;
+    /* box-shadow: 1px 3px 20px 3px #b8b8b83e; */
+}
+
+.card{
+    float: left;
+    background-color: #F3F3F3;
+    margin: 0 10px;
+    border-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    /* box-shadow: 1px 3px 10px 0px #b8b8b863; */
+}

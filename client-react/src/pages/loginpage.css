@@ -1,0 +1,18 @@
+.loginbox{
+    margin-top: 200px;
+    background-color: #F3F3F3;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    /* border: 2px solid #ccc; 테두리 스타일 설정 */
+    border-radius: 20px; /* 박스의 테두리를 둥글게 만듭니다. */
+    margin-bottom: 100px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    /* box-shadow: 1px 3px 10px 0px #b8b8b863; */
+}
+
+.login{
+    text-align: center;
+}

@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Freesentation';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-7Bold.woff2') format('woff2');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Freesentation2';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-5Medium.woff2') format('woff2');
+    font-style: normal;
+}
+
+.title {
+    font-family: 'Freesentation';
+    margin-top: 60px;
+    text-align: left;
+    margin-left: 6%;
+    font-size: 40px;
+}
+
+.text {
+    font-family: 'Freesentation2';
+    font-size: 20px;
+    margin-top: 6px;
+    margin-left: 6%;
+}

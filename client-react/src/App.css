@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'WavvePADO-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2404@1.0/WavvePADO-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Freesentation2';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-3Light.woff2') format('woff2');
+    font-style: normal;
+}
+
+#navi {
+    /* background-color: white !important; */
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #0CB886;
+    --bs-btn-border-color: #0CB886;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #078863;
+    --bs-btn-hover-border-color: #078863;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #0a58ca;
+    --bs-btn-active-border-color: #0a53be;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #0d6efd;
+    --bs-btn-disabled-border-color: #0d6efd;
+    --bs-btn-border-radius: 20px;
+}
+
+.sam {
+    font-family: 'WavvePADO-Regular';
+}
+
+.na {
+    font-family: 'Freesentation2';
+    /* margin: 0 5%; */
+}
+.nam {
+    font-family: 'Freesentation2';
+    /* margin: 0 5% 0 100%; */
+}

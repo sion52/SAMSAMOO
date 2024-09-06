@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'Freesentation';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-7Bold.woff2') format('woff2');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Freesentation2';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-3Light.woff2') format('woff2');
+  font-style: normal;
+}
+
+.Posts{
+  margin-top: 60px;
+  text-align: left;
+  margin-left: 6%;
+  font-size: 40px;
+  font-family: 'Freesentation';
+}
+
+.Fundingbox{
+    font-family: 'Freesentation2';
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-bottom: 100px;
+    width: 1290px;
+    margin-left: 6%;
+    margin-right: auto;
+  }
+
+
+#Fundingcard{
+    float: left;
+    margin: 0px 10px 50px 10px;
+}

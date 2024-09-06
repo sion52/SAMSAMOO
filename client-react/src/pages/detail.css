@@ -1,0 +1,165 @@
+@font-face {
+    font-family: 'Freesentation';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-7Bold.woff2') format('woff2');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Freesentation2';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-2ExtraLight.woff2') format('woff2');
+    font-style: normal;
+}
+
+.detail_title {
+    font-family: 'Freesentation';
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.detail_main {
+    width: 70%;
+    height: 45vh;
+    margin: auto;
+}
+
+.detail_image {
+    float: left;
+    width: 65%;
+}
+
+.detail_fund {
+    float: left;
+    width: 30%;
+    height: 45vh;
+    margin-left: 5%;
+}
+
+.detail_imagebox {
+    background-Color: #f5f5f5;
+    width: 100%;
+    height: 45vh;
+}
+
+.btn_ {
+    width: 100%;
+}
+
+.button_fund {
+    font-family: 'Freesentation2';
+    background-color: #0CB886;
+    width: 100%;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin: 20px 0 10px 0;
+}
+.button_fund:hover {
+    background-color: #078863;
+}
+
+input[id='like']+label {
+    font-family: 'Freesentation2';
+    background-color: #f5f5f5;
+    width: 20%;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+input[id="like"]:hover + label {
+	background-color: #dedede;
+}
+input[id="like"]:checked + label {
+	background-color: #ff6678;
+}
+input[id="like"]:checked:hover + label {
+	background-color: #cf5361;
+}
+input[id="like"] {
+	display: none;
+}
+
+.button_about {
+    font-family: 'Freesentation2';
+    background-color: #f5f5f5;
+    width: 77%;
+    color: black;
+    border: none;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin: 0 0 0 3%;
+}
+.button_about:hover {
+    background-color: #dedede;
+}
+.button_about:active {
+    background-color: #c9c9c9;
+}
+
+.category {
+    font-family: 'Freesentation';
+    font-size: small;
+    margin: 0;
+    line-height: 40px;
+}
+
+.num {
+    font-family: 'Freesentation';
+    margin: 0;
+    display: inline;
+}
+
+.num_money {
+    font-family: 'Freesentation';
+    margin: 0 5px 0 0;
+    display: inline;
+    font-size: xx-large;
+}
+
+.num_text {
+    font-family: 'Freesentation';
+    min-width: 100px;
+    line-height: 40px;
+    margin: 0;
+    display: inline-block;
+}
+
+.pay_btn {
+    background-color: #0CB886;
+    width: 96%;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin: 20px 2% 10px 2%;
+}
+.pay_btn:hover {
+    background-color: #078863;
+}
+
+.post {
+    font-family: 'Freesentation2';
+    font-size: 18px;
+}
